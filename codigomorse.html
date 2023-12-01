@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Encrypting</title>
+        <link rel="stylesheet" href="cifrascss.css">
+    </head>
+    <body>
+    <span id="linha"></span>
+    <div id="centro">
+        <textarea id="cripto" placeholder="criptografar:"></textarea>
+        <textarea id="descripto" placeholder="texto criptografado:"></textarea>
+            <header id="cacecalho">
+                 
+                <h1>Encrypting</h1>
+                <h2>Código Morse</h2>
+                <h3>Texto para criptografar</h3>
+                <h4>Texto criptografado</h4>
+                <nav id="menu">
+                    <ul>
+                        <li>
+                        <a href="index.html">Menu</a>
+                            <ul class="shortcut">
+                                <li><a href="cifradecesar.html">Cifra de César</a></li>
+                                <li><a href="codigobinario.html">Código Binário</a></li>
+                                <li><a href="codigomorse.html">Código Morse</a></li>
+                            </ul>
+                        </li>    
+                        <li><a href="sobre.html">Sobre</a></li>
+                        </ul>
+            <img id="icone" src="logoencrypting.png">  
+            </nav>
+            </header>                
+                <div id="botoes">
+                    <button onclick="codificar()" id="botaocriptografar">Criptografar</button>
+                    <button onclick="decodificar()" id="botaodescriptografar">Descriptografar</button> 
+                </div>
+        </div>
+    <script src="codigomorsejs.js"></script>
+    </body>
+</html>
